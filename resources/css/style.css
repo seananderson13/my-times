@@ -10,15 +10,23 @@
 	width: 100%;
 	z-index: 1;
 	display: flex;
+	justify-content: space-between;
 }
 
 .logo {
+	margin: 0px 20px;
+	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
+}
+
+.logo p {
+	margin: 0px 20px;
 }
 
 .nav {
+	margin: 0px 50px;
 	display: inline-flex;
-	justify-content: flex-end;
 	align-items: center;
 }
 
@@ -36,4 +44,38 @@
 .main {
 	border: 1px solid black;
 	position: relative;
+	padding: 80px 10px;
+	display: flex;
+}
+
+.column {
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column.large {
+	border: 1px solid black;
+	width: 630px;
+	display: flex;
+}
+
+.column.medium {
+	border: 1px solid black;
+	width: 300px;
+	display: flex;
+}
+
+.column.small {
+	border: 1px solid black;
+	width: 240px;
+	display: flex;
+}
+
+.photo {
+	border: 1px solid black;
+}
+
+.story {
+	border: 1px solid black;
 }
