@@ -1,0 +1,39 @@
+/* Header Section */
+
+.header {
+	font-family: "Verdana", sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: mediumaquamarine;
+	border: 1px solid black;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	display: flex;
+}
+
+.logo {
+	flex-wrap: wrap;
+}
+
+.nav {
+	display: inline-flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav li {
+	width: 60px;
+	display: inline-block;
+}
+
+.nav a {
+	color: #000;
+}
+
+/* Main Content */
+
+.main {
+	border: 1px solid black;
+	position: relative;
+}
